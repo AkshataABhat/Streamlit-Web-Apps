@@ -1,5 +1,6 @@
 from numpy.ma.core import get_data
 import streamlit as st
+import sklearn
 from sklearn import datasets
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
